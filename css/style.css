@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary: #e9762b;
   --bg: #010101;
 }
 
@@ -296,6 +296,8 @@ body {
 
 .hero .content h1 span {
   color: var(--primary);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffff;
 }
 .hero .content p {
   font-size: 1.6rem;
